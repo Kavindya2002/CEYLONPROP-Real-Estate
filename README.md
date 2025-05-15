@@ -2,11 +2,8 @@
   <img src="images/logo.png" alt="Project Logo" width="50" style="margin-right: 500px;"/>
   CEYLONPROP-Real-Estate
 </h1>
-
-
-This is a third-year first-semester group project developed under the ITPM module. 
-
-A full-stack web application for Real Estate Management. This project is organized into separate backend and frontend folders for clear separation of concerns and easier development.
+. 
+This is a third-year first-semester group project developed under the ITPM module — a full-stack web application for Real Estate Management.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
