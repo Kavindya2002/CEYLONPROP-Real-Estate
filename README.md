@@ -1,4 +1,7 @@
-# CEYLONPROP-Real-Estate
+# CEYLONPROP-Real-Estate   
+
+![Project Logo](images/logo.png)
+
 
 This is a third-year first-semester group project developed under the ITPM module. 
 
