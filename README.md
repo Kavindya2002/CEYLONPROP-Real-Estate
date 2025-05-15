@@ -6,16 +6,16 @@
 This is a third-year first-semester group project developed under the ITPM module — a full-stack web application for Real Estate Management.
 
 ## Table of Contents
-- [Project Structure](#project-structure)
 - [Features](#features)
+- [Backend](#backend)
+- [Frontend](#frontend)
 - [Technologies Used](#technologies-used)
 
-## Project Structure
-```
-├── backend/    # Node.js/Express backend API
-├── frontend/   # React + TypeScript frontend
-├── README.md   # Project overview (this file)
-```
+## Features
+- Property Management
+- Customer and Sellers Management 
+- Transaction Management
+- AI-Powered Chatbot
 
 ### Backend
 - RESTful API
@@ -27,12 +27,6 @@ This is a third-year first-semester group project developed under the ITPM modul
 - React app with TypeScript
 - Modern UI with Tailwind CSS
 - Service layer for API communication
-
-## Features
-- Property Management
-- Customer and Sellers Management 
-- Transaction Management
-- AI-Powered Chatbot
 
 ## Technologies Used
 - **Backend:** Node.js, Express, TypeScript, Jest (testing)
