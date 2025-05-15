@@ -1,7 +1,8 @@
 <h1 style="display: flex; align-items: center;">
-  CEYLONPROP-Real-Estate  
-  <img src="images/logo.png" alt="Project Logo" width="50" style="margin-left: 200px;"/>
+  <img src="images/logo.png" alt="Project Logo" width="50" style="margin-right: 500px;"/>
+  CEYLONPROP-Real-Estate
 </h1>
+
 
 This is a third-year first-semester group project developed under the ITPM module. 
 
