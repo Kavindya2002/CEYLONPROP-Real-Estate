@@ -1,6 +1,7 @@
-# CEYLONPROP-Real-Estate   
-
-<img src="images/logo.png" alt="Project Logo" width="150"/>
+<h1 style="display: flex; align-items: center;">
+  CEYLONPROP-Real-Estate  
+  <img src="images/logo.png" alt="Project Logo" width="50" style="margin-left: 10px;"/>
+</h1>
 
 This is a third-year first-semester group project developed under the ITPM module. 
 
