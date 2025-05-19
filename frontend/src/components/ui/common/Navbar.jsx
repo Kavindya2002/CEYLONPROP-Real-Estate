@@ -37,19 +37,26 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-black shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <motion.div
-              whileHover={{ rotate: [0, -10, 10, -10, 0] }}
-              transition={{ duration: 0.5 }}
-              className="text-villain-500"
-            >
-              <img src="/logo.png" alt="Logo" className="size-9" />
-            </motion.div>
-            <span className="text-lg font-bold text-villain-800">Ceylone Prop</span>
-          </Link>
+        <Link to="/" className="flex items-center space-x-4">
+  <motion.div
+    whileHover={{ rotate: [0, -10, 10, -10, 0] }}
+    transition={{ duration: 0.5 }}
+    className="text-villain-500"
+  >
+    <img src="/logo.png" alt="Logo" className="w-16 h-16" />
+  </motion.div>
+  <div className="flex flex-col items-center">
+    <span className="text-lg font-bold text-violet-50">CEYLONPROP</span>
+    <span className="text-sm font-medium text-violet-50">Real Estate</span>
+  </div>
+</Link>
+
+
+
+
 
           <nav className="flex items-center space-x-6">
             {isAuthenticated && (
