@@ -1,24 +1,4 @@
-# Apartment Hub
 
-A full-stack web application for managing, listing, and searching apartments, sellers, and customers. This project is organized into separate backend and frontend folders for clear separation of concerns and easier development.
-
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [Development](#development)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-
-## Project Structure
-```
-├── backend/    # Node.js/Express backend API
-├── frontend/   # React + TypeScript frontend
-├── README.md   # Project overview (this file)
-```
 
 ### Backend
 - RESTful API for apartments, sellers, and customers
