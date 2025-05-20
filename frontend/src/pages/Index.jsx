@@ -278,8 +278,8 @@ const Index = () => {
               initial="hidden"
               animate="visible"
             >
-              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft">
-                <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft hover:bg-villain-300">
+                <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4 ">
                   <svg
                     className="w-6 h-6 text-villain-500"
                     fill="none"
@@ -295,13 +295,13 @@ const Index = () => {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-villain-800 mb-2">Seller Management</h3>
+                <h3 className="text-xl font-bold text-villain-800 mb-2">Customer & Seller Management</h3>
                 <p className="text-gray-600">
-                  Register, approve, and manage sellers with an intuitive dashboard.
+                  Effortlessly register approve and manage sellers and customers with an intuitive user-friendly dashboard
                 </p>
               </motion.div>
               
-              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft">
+              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft hover:bg-villain-400">
                 <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4">
                   <svg
                     className="w-6 h-6 text-villain-500"
@@ -318,13 +318,51 @@ const Index = () => {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-villain-800 mb-2">Property Listings</h3>
+                <h3 className="text-xl font-bold text-villain-800 mb-2">Property Listing</h3>
                 <p className="text-gray-600">
-                  Create and manage detailed property listings with validation.
+                  Effortlessly add, update, and manage properties with a powerful and intuitive interface.
                 </p>
               </motion.div>
+             <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft hover:bg-villain-400">
+  <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+    <svg
+      className="w-6 h-6 text-villain-500"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <rect x="3" y="7" width="18" height="10" rx="2" ry="2" />
+      <path d="M8 12h.01M16 12h.01M12 12a2 2 0 100-4 2 2 0 000 4z" />
+    </svg>
+  </div>
+  <h3 className="text-xl font-bold text-villain-800 mb-2">Secure Transactions</h3>
+  <p className="text-gray-600">
+    Simplify property transactions with secure processing, accurate tracking, and transparent oversight.
+  </p>
+</motion.div>
+  <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft hover:bg-villain-400">
+  <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+    <svg
+      className="w-6 h-6 text-villain-500"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M18 13v-2a6 6 0 00-12 0v2" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 17v1a3 3 0 003 3h1a3 3 0 003-3v-1" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 21v-2a3 3 0 00-3-3H5a3 3 0 00-3 3v2" />
+    </svg>
+  </div>
+  <h3 className="text-xl font-bold text-villain-800 mb-2">24/7 Support</h3>
+  <p className="text-gray-600">
+    Instant assistance with a smart chatbot available anytime to resolve your queries efficiently.
+  </p>
+</motion.div>
               
-              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft">
+              <motion.div variants={itemVariants} className="card bg-white p-6 rounded-2xl shadow-soft hover:bg-villain-400">
                 <div className="bg-villain-50 w-12 h-12 rounded-full flex items-center justify-center mb-4">
                   <svg
                     className="w-6 h-6 text-villain-500"
@@ -343,7 +381,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-bold text-villain-800 mb-2">Reporting</h3>
                 <p className="text-gray-600">
-                  Generate detailed reports for properties and sales activities.
+                  Generate comprehensive reports on properties, sales, and transactions for informed decision-making.
                 </p>
               </motion.div>
             </motion.div>
@@ -351,15 +389,17 @@ const Index = () => {
         </section>
       </main>
       
-      <footer className="bg-villain-800 py-8 text-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <p className="text-sm">
-              © {new Date().getFullYear()} Property & Seller Management System. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <footer className="bg-black py-8 text-white">
+  <div className="container mx-auto px-4">
+    <div className="text-center space-y-2">
+      <p className="text-sm font-semibold">© {new Date().getFullYear()} CEYLONPROP Real Estate</p>
+      <p className="text-sm">ceylonproprealesate@gmail.com</p>
+      <p className="text-sm">011 5022000</p>
+      <p className="text-sm">Colombo 03</p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };
