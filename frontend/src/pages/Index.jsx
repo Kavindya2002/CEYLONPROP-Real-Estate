@@ -390,14 +390,16 @@ const Index = () => {
       </main>
       
       <footer className="bg-black py-8 text-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <p className="text-sm">
-              © {new Date().getFullYear()} Property & Seller Management System. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+  <div className="container mx-auto px-4">
+    <div className="text-center space-y-2">
+      <p className="text-sm font-semibold">© {new Date().getFullYear()} CEYLONPROP Real Estate</p>
+      <p className="text-sm">ceylonproprealesate@gmail.com</p>
+      <p className="text-sm">011 5022000</p>
+      <p className="text-sm">Colombo 03</p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };
