@@ -152,10 +152,11 @@ const Index = () => {
                 Find Your Perfect Property
               </h1>
               
-              <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                Browse thousands of property listings across Sri Lanka. 
-                Buy, sell, or rent properties with ease through our comprehensive platform.
-              </p>
+              <p className="text-base text-gray-600 mb-8 max-w-lg">
+  Discover your dream property with ease! <br />
+  Browse thousands of listings across Sri Lanka and seamlessly Buy, Sell or Rent through our intuitive and comprehensive platform.
+</p>
+
               
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -181,17 +182,17 @@ const Index = () => {
                 
                 <Link
                   to="/seller/register"
-                  className="rounded-2xl bg-white px-6 py-3 text-villain-800 border border-gray-300 shadow-sm hover:bg-gray-50 transition"
+                  className="rounded-2xl bg-white px-6 py-3 text-villain-800 border border-gray-300 shadow-sm hover:bg-villain-400"
                 >
                   Register as Seller
                 </Link>
                 
                 <Link
-                  to="/chat"
-                  className="rounded-2xl bg-villain-500 px-6 py-3 text-white border border-villain-500 shadow-sm hover:bg-villain-600 transition flex items-center"
+                  to="/customer/register"
+                  className="rounded-2xl bg-white px-6 py-3 text-villain-800 border border-gray-300 shadow-sm hover:bg-villain-400"
                 >
-                  <MessageSquare className="h-5 w-5 mr-2" />
-                  Chat with Assistant
+                  
+                  Register as Customer
                 </Link>
               </div>
             </motion.div>

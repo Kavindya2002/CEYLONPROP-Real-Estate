@@ -209,28 +209,44 @@ const Navbar = () => {
               </DropdownMenu>
             ) : (
               <div className="flex items-center space-x-2">
-                
-                <Link to="/customer/register">
-                  <Button size="sm" className="bg-violet-50 text-black hover:bg-villain-400">
-                    Sign Up
-                  </Button>
-                </Link>
-                <Link to="/chat">
+             <Link to="/about">
+  <Button 
+    variant="outline" 
+    size="sm" 
+    className="flex items-center px-4 py-2 border-black text-violet-50 hover:bg-villain-400 rounded-md bg-black"
+  >
+    About Us
+  </Button>
+</Link>
+
+
+                 <Link to="/chat">
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="flex items-center space-x-1 border-black text-black hover:bg-villain-400"
+                    className="lex items-center px-4 py-2 border-black text-violet-50 hover:bg-villain-400 rounded-md bg-black"
                   >
-                    <MessageSquare className="h-4 w-4 mr-1" />
-                    Chat
+                   
+                    Support
                   </Button>
                 </Link>
-                <Link to="/login">
-                  <Button variant="outline" size="sm" className="flex items-center space-x-1">
-                    <User className="h-4 w-4 mr-1" />
-                    
+                
+                <Link to="/customer/register">
+                  <Button size="sm" className="lex items-center px-4 py-2 border-black text-violet-50 hover:bg-villain-400 rounded-md bg-black">
+                    Sign Up
                   </Button>
                 </Link>
+               
+               <Link to="/login">
+  <Button
+    variant="outline"
+    size="sm"
+    className="flex items-center px-4 py-2 border-black text-violet-50 hover:bg-villain-400 rounded-md bg-black"
+  >
+    <User className="h-4 w-4 mr-1" />
+  </Button>
+</Link>
+
               </div>
             )}
           </nav>
