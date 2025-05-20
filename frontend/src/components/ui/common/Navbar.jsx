@@ -119,16 +119,7 @@ const Navbar = () => {
               whileTap="tap"
               className="relative"
             >
-              <Link
-                to="/seller/register"
-                className={`font-medium ${
-                  location.pathname.startsWith("/seller")
-                    ? "text-villain-500"
-                    : "text-gray-600 hover:text-villain-500"
-                }`}
-              >
-                Seller Portal
-              </Link>
+              
               {location.pathname.startsWith("/seller") && (
                 <motion.div
                   layoutId="navIndicator"
@@ -154,8 +145,8 @@ const Navbar = () => {
                   to="/admin/dashboard"
                   className={`font-medium ${
                     location.pathname.startsWith("/admin")
-                      ? "text-villain-500"
-                      : "text-gray-600 hover:text-villain-500"
+                      ? "text-black"
+                      : "text-violet-100 hover:text-villain-500"
                   }`}
                 >
                   Admin Portal

@@ -352,15 +352,7 @@ const Create = () => {
                 />
               </div>
               
-              {/* Error Messages */}
-              {methods.formState.errors && Object.keys(methods.formState.errors).length > 0 && (
-                <div className="mb-8 p-4 bg-red-50 border border-red-200 rounded-md">
-                  <h3 className="text-red-800 font-medium mb-2">Please correct the following errors:</h3>
-                  <pre className="text-xs overflow-auto max-h-40 p-2 bg-white rounded border border-red-100">
-                    {JSON.stringify(methods.formState.errors, null, 2)}
-                  </pre>
-                </div>
-              )}
+              
               
               {/* Submit Button */}
               <div className="flex justify-end mt-8">
