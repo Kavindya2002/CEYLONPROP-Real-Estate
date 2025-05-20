@@ -218,14 +218,9 @@ const Navbar = () => {
               </DropdownMenu>
             ) : (
               <div className="flex items-center space-x-2">
-                <Link to="/login">
-                  <Button variant="outline" size="sm" className="flex items-center space-x-1">
-                    <User className="h-4 w-4 mr-1" />
-                    Log In
-                  </Button>
-                </Link>
+                
                 <Link to="/customer/register">
-                  <Button size="sm" className="bg-villain-500 hover:bg-villain-600">
+                  <Button size="sm" className="bg-violet-50 text-black hover:bg-villain-400">
                     Sign Up
                   </Button>
                 </Link>
@@ -233,10 +228,16 @@ const Navbar = () => {
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="flex items-center space-x-1 border-villain-500 text-villain-500 hover:bg-villain-50"
+                    className="flex items-center space-x-1 border-black text-black hover:bg-villain-400"
                   >
                     <MessageSquare className="h-4 w-4 mr-1" />
                     Chat
+                  </Button>
+                </Link>
+                <Link to="/login">
+                  <Button variant="outline" size="sm" className="flex items-center space-x-1">
+                    <User className="h-4 w-4 mr-1" />
+                    
                   </Button>
                 </Link>
               </div>

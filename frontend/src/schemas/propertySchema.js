@@ -35,8 +35,8 @@ export const propertyFormSchema = z.object({
       .regex(/^\d+$/, "Postal code must contain only digits"),
   }),
   forSale: z.boolean(),
-  price: z.string().regex(/^[0-9]+$/, "Beds must be a non-negative number"),
-  discountPrice: z.string().regex(/^[0-9]+$/, "Beds must be a non-negative number").optional(),
+  price: z.string().regex(/^[0-9]+$/, "Price must be a non-negative number"),
+  discountPrice: z.string().regex(/^[0-9]+$/, "Price must be a non-negative number").optional(),
   beds: z.string().regex(/^[0-9]+$/, "Beds must be a non-negative number"),
   baths: z.string().regex(/^[0-9]+$/, "Baths must be a non-negative number"),  
   options: z.object({
