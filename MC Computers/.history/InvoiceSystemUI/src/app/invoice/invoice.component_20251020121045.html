@@ -1,0 +1,66 @@
+<div class="invoice-container p-4 border">
+  <!-- Header with logo and company details -->
+  <div class="d-flex justify-content-between align-items-start mb-3">
+    <div>
+      <img src="assets/logo.png" alt="MC Computers" class="logo mb-2">
+      <h3>MC Computers</h3>
+      <p>No 32, Galle Road, Colombo 03, Sri Lanka</p>
+      <ul class="list-unstyled">
+        <li>📞 Voice - +94 11 2 333 111</li>
+        <li>Email - mccomputers@gmail.com</li>
+        <li>Online - mccomputers.lk</li>
+      </ul>
+    </div>
+    <div class="text-end">
+      <h2>INVOICE</h2>
+      <p><strong>Invoice No:</strong> {{invoice.invoiceID}}</p>
+      <p><strong>Date:</strong> {{invoice.invoiceDate | date}}</p>
+    </div>
+  </div>
+
+  <!-- Bill To -->
+  <div class="bill-to mb-3 p-2 border">
+    <h5>Bill To</h5>
+    <p>Name: {{invoice.customer?.name}}</p>
+    <p>Phone: {{invoice.customer?.phone}}</p>
+  </div>
+
+  <!-- Invoice Table -->
+  <table class="table table-bordered mb-3">
+    <thead class="table-light">
+      <tr>
+        <th>Qty</th>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Discount</th>
+        <th>Total</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of invoice.items">
+        <td>{{item.quantity}}</td>
+        <td>{{item.product?.productName}}</td>
+        <td>{{item.product?.description}}</td>
+        <td>{{item.discount}}</td>
+        <td>{{item.subTotal | currency}}</td>
+        <td>{{invoice.balanceAmount | currency}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Warranty and notes -->
+  <div class="notes mb-3">
+    <p>*Submit this INVOICE for warranty claim. Defective parts will be repaired or replaced within 14 working days.</p>
+    <p>*No warranty for items damaged due to power surge, physical impact, liquid, or misuse.</p>
+    <p>*Warranty not applicable for software, cartridges, toners, or consumable items.</p>
+  </div>
+
+  <!-- Signature Section -->
+  <div class="d-flex justify-content-between mt-5">
+    <p>.................................... <br> Authorised Signature</p>
+    <p>.................................... <br> Check goods before accepting & sign</p>
+    <p>.................................... <br> Customer Name & Signature</p>
+  </div>
+</div>
+

@@ -1,0 +1,62 @@
+<!-- src/app/invoice/invoice.component.html -->
+
+<div class="container" style="max-width: 800px; margin: 30px auto; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center;">Invoice System</h2>
+
+  <!-- Customer Info -->
+  <div style="margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 8px;">
+    <h4>Customer Information</h4>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <div style="flex: 1;">
+        <label>Name:</label>
+        <input type="text" [(ngModel)]="customer.name" placeholder="Enter Name" style="width: 100%; padding: 5px;" />
+      </div>
+      <div style="flex: 1;">
+        <label>Phone:</label>
+        <input type="text" [(ngModel)]="customer.phone" placeholder="Enter Phone" style="width: 100%; padding: 5px;" />
+      </div>
+      <div style="flex: 1;">
+        <label>Customer ID:</label>
+        <input type="text" [value]="customerId" readonly style="width: 100%; padding: 5px;" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Products Table -->
+  <div style="margin-bottom: 20px;">
+    <h4>Products</h4>
+    <table border="1" cellspacing="0" cellpadding="5" style="width: 100%; border-collapse: collapse;">
+      <thead style="background: #f0f0f0;">
+        <tr>
+          <th>Qty</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Discount (%)</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of products; let i = index">
+          <td><input type="number" [(ngModel)]="item.quantity" (input)="calculateTotals()" style="width: 60px;" /></td>
+          <td><input type="text" [(ngModel)]="item.name" placeholder="Product Name" /></td>
+          <td><input type="text" [(ngModel)]="item.description" placeholder="Description" /></td>
+          <td><input type="number" [(ngModel)]="item.discount" (input)="calculateTotals()" style="width: 60px;" /></td>
+          <td>{{ item.total | currency:'LKR' }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="addProduct()" style="margin-top: 10px; padding: 5px 10px;">Add Product</button>
+  </div>
+
+  <!-- Totals -->
+  <div style="margin-bottom: 20px; text-align: right;">
+    <p>Total Amount: {{ totalAmount | currency:'LKR' }}</p>
+    <p>Balance Amount: {{ balanceAmount | currency:'LKR' }}</p>
+    <button (click)="calculateTotals()" style="padding: 5px 10px;">Recalculate</button>
+  </div>
+
+  <!-- Download Invoice -->
+  <div style="text-align: center;">
+    <button (click)="downloadInvoice()" style="padding: 10px 20px; font-weight: bold; background-color: #007bff; color: white; border: none; border-radius: 5px;">Download Invoice PDF</button>
+  </div>
+</div>

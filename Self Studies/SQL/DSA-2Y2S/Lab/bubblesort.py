@@ -1,0 +1,16 @@
+A=[]
+for v in range(1,8):
+    A.append(input('Enter numbers:'))
+print(A)
+
+def bubblesort(A):
+    n = len(A)
+    for i in range(1,n):
+        for j in range(1,n-i+1):
+            if A[j] < A[j-1]:
+                A[j],A[j-1] = A[j-1],A[j]
+
+bubblesort(A)
+print('Sorted array:')
+print(A)
+                

@@ -1,0 +1,92 @@
+<div class="container mt-4 p-4 border" style="border: 2px solid #000; max-width: 900px; font-family: Arial, sans-serif;">
+
+  <!-- Top Section: Logo and Company Info -->
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <!-- Company Logo -->
+    <div>
+      <img src="assets/logo.png" alt="MC Computers Logo" style="height: 80px;">
+    </div>
+
+    <!-- Company Name & Address -->
+    <div class="text-end">
+      <h2 style="margin:0;">MC Computers</h2>
+      <p style="margin:0;">No 32, Galle Road, Colombo 03, Sri Lanka</p>
+      <p style="margin:0; font-size: 0.9rem;">
+        📞 Voice: +94 11 2 333 111 | ✉ Email: mccomputers@gmail.com | 🌐 Online: mccomputers.lk
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Invoice Header -->
+  <div class="d-flex justify-content-between mb-3">
+    <h3>INVOICE</h3>
+    <div>
+      <p style="margin:0;">Invoice Number: {{ invoice.invoiceNumber }}</p>
+      <p style="margin:0;">Invoice Date: {{ invoice.invoiceDate | date:'shortDate' }}</p>
+    </div>
+  </div>
+
+  <!-- Bill To -->
+  <div class="mb-4 p-2 border" style="background-color: #f9f9f9;">
+    <h5>Bill To:</h5>
+    <p style="margin:0;">Customer Name: {{ invoice.customer.name }}</p>
+    <p style="margin:0;">Phone: {{ invoice.customer.phone }}</p>
+  </div>
+
+  <!-- Items Table -->
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>Qty</th>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Discount</th>
+        <th>Total Amount</th>
+        <th>Balance Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of invoice.items">
+        <td>{{ item.quantity }}</td>
+        <td>{{ item.productName }}</td>
+        <td>{{ item.description }}</td>
+        <td>{{ item.discount | currency:'LKR' }}</td>
+        <td>{{ item.totalAmount | currency:'LKR' }}</td>
+        <td>{{ item.balanceAmount | currency:'LKR' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Totals -->
+  <div class="text-end mb-3">
+    <p>Total Amount: {{ invoice.totalAmount | currency:'LKR' }}</p>
+    <p>Paid Amount: {{ invoice.paidAmount | currency:'LKR' }}</p>
+    <p>Balance: {{ invoice.balanceAmount | currency:'LKR' }}</p>
+  </div>
+
+  <!-- Warranty Information -->
+  <div class="mb-4">
+    <p>* Submit this INVOICE for warranty claim. Defective parts will be repaired or replaced within 14 working days.</p>
+    <p>* No warranty for items damaged due to power surge, physical impact, liquid, or misuse.</p>
+    <p>* Warranty not applicable for software, cartridges, toners, or consumable items.</p>
+  </div>
+
+  <!-- Signature Section -->
+  <div class="d-flex justify-content-between mt-5">
+    <div class="text-center">
+      ....................................<br>
+      Authorised Signature
+    </div>
+    <div class="text-center">
+      ....................................<br>
+      Check goods before accepting & sign
+    </div>
+    <div class="text-center">
+      ....................................<br>
+      Customer Name & Signature
+    </div>
+  </div>
+
+</div>

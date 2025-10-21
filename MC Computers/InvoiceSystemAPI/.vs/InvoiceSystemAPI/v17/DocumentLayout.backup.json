@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|c:\\users\\lenovo\\desktop\\mc computers\\invoicesystemapi\\invoicesystemapi\\invoicesystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FFEF98B6-34FE-4FDB-BFF5-724AB4B69859}|InvoiceSystemAPI\\InvoiceSystemAPI.csproj|solutionrelative:invoicesystemapi\\invoicesystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:14:49.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:14:12.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:11:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:00:19.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\appsettings.json",
+              "RelativeToolTip": "InvoiceSystemAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T01:12:15.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:09:07.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T00:59:13.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Invoice.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:00:02.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Models\\Product.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T00:59:34.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\Program.cs",
+              "RelativeToolTip": "InvoiceSystemAPI\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:39:57.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvoiceSystemAPI",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\InvoiceSystemAPI.csproj",
+              "RelativeDocumentMoniker": "InvoiceSystemAPI\\InvoiceSystemAPI.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MC Computers\\InvoiceSystemAPI\\InvoiceSystemAPI\\InvoiceSystemAPI.csproj",
+              "RelativeToolTip": "InvoiceSystemAPI\\InvoiceSystemAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T16:16:22.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

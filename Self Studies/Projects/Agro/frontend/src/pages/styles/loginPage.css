@@ -1,0 +1,75 @@
+.outerFrame {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* logo png */
+.logoInLogin {
+    position: absolute;
+    top: 10px;
+}
+
+/* login form - main content */
+.loginFrame {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+.loginFrame .forgotLink {
+    font-size: .85em;
+    color: rgb(120, 120, 120);
+    text-align: right;
+}
+
+.loginFrame .forgotLink:hover {
+    color: rgb(75, 75, 75);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.loginFrame .notYet {
+    font-size: .85em;
+}
+
+.loginFrame .notYet span {
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+}
+
+.loginFrame .notYet span:hover {
+    color: rgb(75, 75, 75);
+}
+
+.loginFrame .otherOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loginFrame .otherOptions .block:first-child {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginFrame .otherOptions .block:first-child hr {
+    width: 35%;
+    border: none;
+    background-color: rgb(165, 165, 165);
+    height: 1px;
+}
+
+.loginFrame .otherOptions .block:first-child p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(165, 165, 165);
+}

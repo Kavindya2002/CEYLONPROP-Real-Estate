@@ -1,0 +1,145 @@
+.imgBox {
+    width: 200px;
+    aspect-ratio: 3 / 4;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+    object-position: center;
+    object-fit: fill;
+}
+
+/* ================================================= */
+
+.updateBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* z-index: 5; */
+}
+
+.updateBlock:first-child {
+    padding-top: 25px;
+    gap: 30px;
+}
+
+.updateBlock h5 {
+    font-size: 1.25em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.updateBlock .updateBox {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    z-index: 10;
+}
+
+.updateBlock .updateBox h3 {
+    font-size: 3em;
+    width: 200px;
+    font-weight: 600;
+    text-align: right;
+    color: teal;
+}
+
+/* =============================================== */
+
+.updateBlock .updateBox .updateButtons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.updateBlock .updateBox .updateButtons button {
+    border-radius: 25%;
+    padding: 3px 11px;
+    font-size: 1.35em;
+    background-color: transparent;
+    border: 3px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+
+.updateBlock .updateBox .updateButtons button:first-child:hover {
+    border: 3px solid green;
+    color: green;
+}
+
+.updateBlock .updateBox .updateButtons button:last-child:hover {
+    border: 3px solid cornflowerblue;
+    color: cornflowerblue;
+}
+
+/* ==================================================== */
+
+.updateFormBlock {
+    padding: 25px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    transform: translateX(-40%) translateY(-10%);
+    box-shadow: 0 3px 5px rgba(128, 128, 128, 0.5);
+}
+
+.updateFormBlock form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.updateFormBlock form .updateButtons {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.updateFormBlock form input,
+.updateFormBlock form select {
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    font-size: 1.15em;
+    text-align: left;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.updateFormBlock form .updateFormRow {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.updateFormBlock form .updateFormRow:nth-child(1) input,
+.updateFormBlock form .updateFormRow:nth-child(3) input {
+    width: 250px;
+}
+
+.updateFormBlock form .updateFormRow:nth-child(2) input,
+.updateFormBlock form .updateFormRow:nth-child(4) input {
+    width: 500px;
+}
+
+.updateFormBlock form .updateFormRow select {
+    width: 250px;
+}
+
+.updateFormBlock form .updateButtons button {
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 2px;
+}
+
+.updateFormBlock form .updateButtons button:first-child {
+    background-color: green;
+}

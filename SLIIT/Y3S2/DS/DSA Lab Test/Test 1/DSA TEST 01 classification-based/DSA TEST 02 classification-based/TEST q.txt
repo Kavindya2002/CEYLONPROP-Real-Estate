@@ -1,0 +1,15 @@
+Consider the data available in the heart attack.csv file (Download the file here) provided. The data set contains several metrics that could be used predict a hear attack type. Create a python notebook which do the following.
+
+1. Import the csv file 
+
+2. Use two methods known to you to explore the content 
+
+3. Split the data into two sets such that 5% of the data is used for testing and 95% of the data is used for training. 
+
+4. Train a decision tree classifier to classify the data and obtain the accuracy of the model 
+5. What is the accuracy of the training model?..
+
+6. Predict the heart disease for the rows in the heart attack_predict.csv (Download the file here)
+
+
+. Obtain the actual diseases for the data in the file and compare in the program. Are they the same? Upload the answer to the questions as a .py file (select File->Download as->Python in Jupyter Notebook). so you have to give the csv file according to those

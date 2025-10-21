@@ -1,0 +1,32 @@
+.invoice-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.customer-box, .product-table, .totals-box {
+  margin-bottom: 20px;
+}
+
+.customer-box input, .product-table input {
+  margin-bottom: 5px;
+  width: 200px;
+  padding: 5px;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.download-btn {
+  text-align: right;
+}

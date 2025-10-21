@@ -1,0 +1,52 @@
+<div class="invoice-container">
+  <!-- Customer Details -->
+  <div class="customer-box">
+    <h2>Bill To</h2>
+    <label>Customer Name:</label>
+    <input type="text" [(ngModel)]="customer.name" placeholder="Enter name">
+
+    <label>Phone:</label>
+    <input type="text" [(ngModel)]="customer.phone" placeholder="Enter phone">
+
+    <label>Customer ID:</label>
+    <input type="text" [value]="customerId" readonly>
+  </div>
+
+  <!-- Products Table -->
+  <div class="product-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Discount (%)</th>
+          <th>Total Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of products; let i = index">
+          <td><input [(ngModel)]="item.id" placeholder="Product ID"></td>
+          <td><input [(ngModel)]="item.name" placeholder="Product Name"></td>
+          <td><input [(ngModel)]="item.description" placeholder="Description"></td>
+          <td><input type="number" [(ngModel)]="item.quantity" (input)="calculateTotals()"></td>
+          <td><input type="number" [(ngModel)]="item.discount" (input)="calculateTotals()"></td>
+          <td>{{ item.total | currency:'LKR' }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="addProduct()">Add Product</button>
+  </div>
+
+  <!-- Totals -->
+  <div class="totals-box">
+    <p>Total Amount: {{ totalAmount | currency:'LKR' }}</p>
+    <p>Balance Amount: {{ balanceAmount | currency:'LKR' }}</p>
+  </div>
+
+  <!-- Download PDF -->
+  <div class="download-btn">
+    <button (click)="downloadInvoice()">Download Invoice</button>
+  </div>
+</div>
